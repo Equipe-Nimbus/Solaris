@@ -1,0 +1,9 @@
+[submodule "Solaris_Web"]
+	path = Solaris_Web
+	url = https://github.com/Equipe-Nimbus/Solaris_Web.git
+[submodule "Solaris_IA"]
+	path = Solaris_IA
+	url = https://github.com/Equipe-Nimbus/Solaris_IA.git
+[submodule "Solaris_Backend"]
+	path = Solaris_Backend
+	url = https://github.com/Equipe-Nimbus/Solaris_Backend.git
