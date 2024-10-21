@@ -105,6 +105,48 @@ O projeto tem por base a metodologia ágil SCRUM, por isso foi separado em 4 ent
 <p>Todas as tarefas podem ser consultadas clicando <a href = "https://docs.google.com/spreadsheets/d/1HTreSoiyFyLPOw225WGFWwoKD_gF4uPkpzrNhLRMcTw/edit?usp=sharing">aqui</a></p>
 </details>
 
+<details>
+<summary><h2>Sprint 2</h2></summary>
+<br />
+<p>Nesta sprint tivemos como foco a mudança do tipo de imagem no treinamento do modelo, de thumbnail para tiff, na lógica de usuário e seu histórico de consulta e também no download da imagem.</p>
+
+<b>Sprint Backlog:<b>
+
+| Sprint | Funcionalidade | Prioridade |
+| :--:   | :-----------:  | :--------: |
+| **02** | Melhorias na IAe uso de TIFFs | Alta |
+| **02** | Download de filtros | Alta |
+| **02** | Histórico de requisições do Usuário | Média |
+
+
+<b>Burndown:</b>
+
+<img src="docs/sprint2/burndowSprint2.png">
+
+<b>Tarefas:</b>
+
+<p>O grupo optou pela organização das tarefas fazendo uso das User Story, tarefas e subtarefas.</p>
+<p>Irei usar como exemplo a User Story relacionada com os downloads das imagens dos filtros</p>
+
+| Tipo | Descrição |
+| :--:   | :-----------:  |
+| **User Story**| COMO usuário QUERO poder aplicar filtros e baixar as imagens e mascaras de nuvem no desktop PARA utiliza-las em minhas análises e pesquisas |
+| **SubTarefa** | IA - Converter os filtros de saída do modelo de IA em vetor |
+| **Subtarefa** | FRONT - Criar lógica que aplique e desaplique o filtro nas imagens no frontEnd |
+| **Subtarefa** | BACK - Incluir o link para o download do tiff e outras propriedades adicionais na resposta para o front |
+| **Subtarefa** | FRONT - Criar lógica e botão de download |
+
+<p>Houve também tarefas que não estavam relacionadas a nenhuma User Story. Um exemplo disso foram as tarefas </p>
+
+| Tipo | Descrição |
+| :--:   | :-----------:  |
+| **Tarefa** | IA - Montar um dataset a partir da api de tiff fusionado |
+| **Tarefa** | IA - Passar a usar tiff na previsão |
+| **Tarefa** | FRONT - Criar um modal para visualizar as imagens em um tamanho maior |
+
+<p>Todas as tarefas podem ser consultadas clicando <a href = "https://docs.google.com/spreadsheets/d/1J3sLY49wz2yoR_3MJh6oMyfSYQd4llnLgy5uJMeMzGY/edit?usp=sharing">aqui</a></p>
+</details>
+
 <span id="backlog"></span>
 <h1 align="center">Backlog</h1>
 
@@ -115,7 +157,8 @@ O projeto tem por base a metodologia ágil SCRUM, por isso foi separado em 4 ent
 | **01** | Interface desktop para pesquisa das imagens (Desktop) | US03 | Alta |
 | **02** | Melhorias na IA e uso de TIFFs | ---- | Média |
 | **02** | Download dos filtros de nuvens e de suas sombras (Desktop) | US04 | Média |
-| **02** | Página home (Desktop) | US05 | Baixa |
+| **02** | Histórico de requisição de cada usuário | US11 | Média |
+| **03** | Página home (Desktop) | US05 | Baixa |
 | **03** | Interface mobile | US06 | Média |
 | **03** | Download de filtros de nuvens e de suas sombras (Mobile) | US07 | Média |
 | **03** | Página home (Mobile) | US08 | Baixa |
@@ -136,3 +179,4 @@ O projeto tem por base a metodologia ágil SCRUM, por isso foi separado em 4 ent
 | US08 | COMO usuário QUERO poder aplicar filtros e baixar as imagens e mascaras de nuvem no mobile PARA utiliza-las em minhas análises e pesquisas |
 | US09 | COMO usuário QUERO um histórico das minhas consultas PARA ter um acesso fácil à informações que são relevantes para mim |
 | US10 | COMO usuário QUERO um histórico das minhas consultas PARA ter um acesso fácil à informações que são relevantes para mim |
+| US11 | COMO usuário QUERO logar na minha conta PARA ter acesso as minhas consultas anteriores e as em aberto das imagens e dos filtros dessas imagens |
