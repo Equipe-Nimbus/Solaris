@@ -147,6 +147,46 @@ O projeto tem por base a metodologia ágil SCRUM, por isso foi separado em 4 ent
 <p>Todas as tarefas podem ser consultadas clicando <a href = "https://docs.google.com/spreadsheets/d/1J3sLY49wz2yoR_3MJh6oMyfSYQd4llnLgy5uJMeMzGY/edit?usp=sharing">aqui</a></p>
 </details>
 
+<details>
+<summary><h2>Sprint 3</h2></summary>
+<br />
+<p>Nesta sprint tivemos como foco a entrega do aplicativo, implementação do GeoJson, lógica de filas para gerenciar as requisições e melhorias na IA.</p>
+
+<b>Sprint Backlog:<b>
+
+| Sprint | Funcionalidade | Prioridade |
+| :--:   | :-----------:  | :--------: |
+| **03** | Plataforma mobile para aplicação | Alta |
+| **03** | Download de filtros de nuvens e de suas sombras (Mobile) | Alta |
+| **03** | Fila para geenciar as requisições | Média |
+| **03** | Melhorias na IA | Média |
+
+
+<b>Burndown:</b>
+
+<img src="docs/sprint3/burndownSprint3.png">
+
+<b>Tarefas:</b>
+
+<p>O grupo optou pela organização das tarefas fazendo uso das User Story, tarefas e subtarefas.</p>
+<p>Irei usar como exemplo a User Story relacionada ao mapa de consulta para a requisição da imagem no celular</p>
+
+| Tipo | Descrição |
+| :--:   | :-----------:  |
+| **User Story**| COMO usuário QUERO ser capaz de visualizar e procurar as imagens em uma interface mobile PARA usar o serviço em meu celular |
+| **SubTarefa** | MOBILE - Gerar coordenada bbox e criar formulário de requisição da api do backend |
+| **Subtarefa** | MOBILE - Pegar as imagens que está no json enviado pelo backend e plota-las na tela |
+
+<p>Houve também tarefas que não estavam relacionadas a nenhuma User Story. Um exemplo disso foram as tarefas </p>
+
+| Tipo | Descrição |
+| :--:   | :-----------:  |
+| **Tarefa** | IA - Anotar 200 imagens para popular o datasert |
+| **Tarefa** | IA - Treinar o modelo de IA para aprimorar as métricas do mesmo |
+
+<p>Todas as tarefas podem ser consultadas clicando <a href = "https://docs.google.com/spreadsheets/d/1SxBlZXxWbLReSYaCczvpgzOGUwEeVA47uaAmONXoWso/edit?usp=sharing">aqui</a></p>
+</details>
+
 <span id="backlog"></span>
 <h1 align="center">Backlog</h1>
 
@@ -158,10 +198,10 @@ O projeto tem por base a metodologia ágil SCRUM, por isso foi separado em 4 ent
 | **02** | Melhorias na IA e uso de TIFFs | ---- | Média |
 | **02** | Download dos filtros de nuvens e de suas sombras (Desktop) | US04 | Média |
 | **02** | Histórico de requisição de cada usuário | US11 | Média |
-| **03** | Página home (Desktop) | US05 | Baixa |
 | **03** | Interface mobile | US06 | Média |
 | **03** | Download de filtros de nuvens e de suas sombras (Mobile) | US07 | Média |
-| **03** | Página home (Mobile) | US08 | Baixa |
+| **04** | Página home (Desktop) | US05 | Baixa |
+| **04** | Página home (Mobile) | US08 | Baixa |
 | **04** | Histórico de consultas (Mobile e Desktop) | US09 | Baixa |
 | **04** | Estatísticas relacionadas à busca | US10 | Baixa |
 
