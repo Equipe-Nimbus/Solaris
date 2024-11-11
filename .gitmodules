@@ -7,3 +7,6 @@
 [submodule "Solaris_IA"]
 	path = Solaris_IA
 	url = https://github.com/Equipe-Nimbus/Solaris_IA.git
+[submodule "Solaris_Mobile"]
+	path = Solaris_Mobile
+	url = https://github.com/Equipe-Nimbus/Solaris_Mobile.git
