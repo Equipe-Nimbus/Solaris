@@ -187,6 +187,41 @@ O projeto tem por base a metodologia ágil SCRUM, por isso foi separado em 4 ent
 <p>Todas as tarefas podem ser consultadas clicando <a href = "https://docs.google.com/spreadsheets/d/1SxBlZXxWbLReSYaCczvpgzOGUwEeVA47uaAmONXoWso/edit?usp=sharing">aqui</a></p>
 </details>
 
+<details>
+<summary><h2>Sprint 4</h2></summary>
+<br />
+<p>Nesta sprint o foco foi em entregar as estatísticas dos filtros, página home, deploy da aplicação e a documentação da API</p>
+
+<b>Sprint Backlog:<b>
+
+| Sprint | Funcionalidade | Prioridade |
+| :--:   | :-----------:  | :--------: |
+| **03** | Estatísticas dos filtros de fundo, nuvem e sombra de nuvem | Alta |
+| **03** | Deploy da aplicação | Alta |
+| **03** | Documentação da API | Média |
+| **03** | Página home (Mobile e Desktop) | Baixa |
+
+<b>Tarefas:</b>
+
+<p>O grupo optou pela organização das tarefas fazendo uso das User Story, tarefas e subtarefas.</p>
+<p>Irei usar como exemplo a User Story relacionada ao mapa de consulta para a requisição da imagem no celular</p>
+
+| Tipo | Descrição |
+| :--:   | :-----------:  |
+| **User Story**| COMO usuário QUERO que o sistema me informe a porcentagem de cobertura de nuvens e de sombras de nuvens PARA analises em cima das imagens |
+| **SubTarefa** | BACK - Alterar a estrutura do objeto que o serviço de Back-End recebe do modelo de IA e envia para o serviço de Front-End |
+| **Subtarefa** | IA - Estatística de cobertura de nuvens e de sombras de nuvem |
+| **Subtarefa** | FRONT - Alterar o Modal de visualização das máscaras de nuvens e sombras de nuvens para mostrar os dados das estatísticas de cada filtro |
+
+<p>Houve também tarefas que não estavam relacionadas a nenhuma User Story. Um exemplo disso foram as tarefas </p>
+
+| Tipo | Descrição |
+| :--:   | :-----------:  |
+| **Tarefa** | DEVOPS - Criar pipeline para automatizar o deploy das imagens no dockerhub |
+
+<p>Todas as tarefas podem ser consultadas clicando <a href = "https://docs.google.com/spreadsheets/d/1EPe8SwGRVxc59Sm4GmKKZvjjQesKHVK9y2t-fz7iBCk/edit?usp=sharing">aqui</a></p>
+</details>
+
 <span id="backlog"></span>
 <h1 align="center">Backlog</h1>
 
@@ -201,8 +236,7 @@ O projeto tem por base a metodologia ágil SCRUM, por isso foi separado em 4 ent
 | **03** | Interface mobile | US06 | Média |
 | **03** | Download de filtros de nuvens e de suas sombras (Mobile) | US07 | Média |
 | **04** | Página home (Desktop) | US05 | Baixa |
-| **04** | Página home (Mobile) | US08 | Baixa |
-| **04** | Histórico de consultas (Mobile e Desktop) | US09 | Baixa |
+| **04** | Página home (Mobile) | US05 | Baixa |
 | **04** | Estatísticas relacionadas à busca | US10 | Baixa |
 
 <b>User Story</b>
@@ -213,10 +247,9 @@ O projeto tem por base a metodologia ágil SCRUM, por isso foi separado em 4 ent
 | US02 | COMO usuário QUERO que o sistema me forneça imagens do CBERS-4A/WPM PARA utiliza-las em minhas análises e pesquisas |
 | US03 | COMO usuário QUERO ser capaz de visualizar, procurar as imagens em uma interface desktop PARA usar o serviço em meu Computador |
 | US04 | COMO usuário QUERO poder aplicar filtros e baixar as imagens e mascaras de nuvem no desktop PARA utiliza-las em minhas análises e pesquisas |
-| US05 | COMO usuário QUERO uma tela que me informe como usar e como funciona Solaris no desktop PARA utilizar o serviço de forma adequada no meu computador |
+| US05 | COMO usuário QUERO uma tela que me informe como usar e como funciona Solaris no desktop e mobile PARA utilizar o serviço de forma adequada no meu computador |
 | US06 | COMO usuário QUERO ser capaz de visualizar e procurar as imagens em uma interface mobile PARA usar o serviço em meu celular |
 | US07 | COMO usuário QUERO poder aplicar filtros e baixar as imagens e mascaras de nuvem no mobile PARA utiliza-las em minhas análises e pesquisas |
-| US08 | COMO usuário QUERO poder aplicar filtros e baixar as imagens e mascaras de nuvem no mobile PARA utiliza-las em minhas análises e pesquisas |
-| US09 | COMO usuário QUERO um histórico das minhas consultas PARA ter um acesso fácil à informações que são relevantes para mim |
-| US10 | COMO usuário QUERO um histórico das minhas consultas PARA ter um acesso fácil à informações que são relevantes para mim |
-| US11 | COMO usuário QUERO logar na minha conta PARA ter acesso as minhas consultas anteriores e as em aberto das imagens e dos filtros dessas imagens |
+| US08 | COMO usuário QUERO um histórico das minhas consultas PARA ter um acesso fácil à informações que são relevantes para mim |
+| US09 | COMO usuário QUERO que o sistema me informe a porcentagem de cobertura de nuvens e de sombras de nuvens PARA analises em cima das imagens |
+| US10 | COMO usuário QUERO logar na minha conta PARA ter acesso as minhas consultas anteriores e as em aberto das imagens e dos filtros dessas imagens |
